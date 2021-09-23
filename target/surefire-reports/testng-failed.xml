@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Practice Suite]">
+  <test thread-count="5" verbose="0" name="Test Basics 1(failed)">
+    <classes>
+      <class name="com.qa.test.Launch">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="close"/>
+          <include name="intilaise"/>
+        </methods>
+      </class> <!-- com.qa.test.Launch -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
